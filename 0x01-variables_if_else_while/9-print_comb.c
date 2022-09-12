@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - printing numbers from 0-9 with commas and space between them
  *
  * Return: Always 0 (success)
  */
