@@ -1,6 +1,20 @@
 #include <stdio.h
 /**
- * main - print if the number is positive, zero, or negative
+ * main - Entry point
  *
- * Description: using the main function
- * t
+ * Return; Always 0 (success)
+ */
+
+int main(void)
+{
+	char c;
+
+	c = 'a';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	putchar('\n');
+	return (0);
+}
