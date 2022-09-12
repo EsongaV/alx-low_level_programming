@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main -entry point
+ * main - entry point
  *
- * Return:Always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 	c = 0;
 	while
 		(c < 10) {
-			putchar(c + '0');;
+			putchar(c + '0');
 			c++;
 		}
 	putchar('\n');
