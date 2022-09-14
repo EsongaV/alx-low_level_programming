@@ -1,20 +1,22 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - this program prints putchar
+ * main - print putchar
  *
  * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
-	int count, sz;
-
-	sz = sizeof(str) / size0f(int);
-	for (count = 0; count < sz; count++)
-	{
-		_putchar(str[count]);
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
